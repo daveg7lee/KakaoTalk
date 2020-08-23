@@ -38,3 +38,8 @@
   font-size: 32px;
   color: white;
 }
+
+.more__number > i {
+  margin-left: 5px;
+  color: #ff7161;
+}

@@ -31,14 +31,8 @@
   0% {
     transform: none;
   }
-  25% {
-    transform: translateY(-10px);
-  }
   50% {
-    transform: none;
-  }
-  75% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
   100% {
     transform: none;

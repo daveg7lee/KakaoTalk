@@ -1,7 +1,7 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 116vh;
   width: 100vw;
   background-color: #fc5e5e;
   display: flex;
