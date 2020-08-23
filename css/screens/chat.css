@@ -186,8 +186,17 @@
 }
 
 .reply:focus-within input {
-  width: 98vw;
-  transform: translateX(-13%) translateY(-80px);
+  animation: inputAnimation 0.3s linear forwards;
+}
+
+@keyframes inputAnimation {
+  from {
+    transform: none;
+  }
+  to {
+    width: 90vw;
+    transform: translateY(-80px) translateX(-30px);
+  }
 }
 
 .reply:focus-within {
