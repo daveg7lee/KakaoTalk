@@ -126,10 +126,10 @@
 }
 
 .reply .reply__column:first-child {
-  width: 5%;
+  width: 10%;
 }
 .reply .reply__column:last-child {
-  width: 95%;
+  width: 90%;
   position: relative;
 }
 
