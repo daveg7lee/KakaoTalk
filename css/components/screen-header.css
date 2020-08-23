@@ -41,3 +41,16 @@
     transform: none;
   }
 }
+
+.screen-header__icons .fa-cog:hover {
+  animation: roteteCog 2s linear infinite;
+}
+
+@keyframes roteteCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(1turn);
+  }
+}

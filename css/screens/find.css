@@ -4,18 +4,17 @@
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
-
 .recommended-friends__title {
-  font-size: 15px;
-  color: var(--gray);
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .recommended-friends span {
-  margin: 90px 0px;
+  margin: 100px 0;
   display: block;
   text-align: center;
-  font-size: 20px;
-  color: var(--gray);
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .open-chat__header {
@@ -98,4 +97,24 @@
 
 .open-post__heart-count span {
   margin-left: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
