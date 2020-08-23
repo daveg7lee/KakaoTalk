@@ -95,7 +95,8 @@
   margin-right: 5px;
 }
 .message__time,
-.message__author {
+.message__author,
+.message__one {
   opacity: 0.8;
   font-size: 14px;
 }
@@ -201,4 +202,16 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+.message__one {
+  position: relative;
+  bottom: 22px;
+  left: 32px;
+  color: var(--yellow);
+}
+
+.message__time {
+  position: relative;
+  bottom: 5px;
 }

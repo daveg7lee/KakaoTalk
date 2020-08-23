@@ -10,6 +10,7 @@
 
 .more-suggestions__title {
   margin-bottom: 30px;
+  font-weight: 500;
 }
 
 .more-suggestions__icons {
@@ -21,6 +22,10 @@
   flex-direction: column;
   align-items: center;
   margin-right: 30px;
+}
+
+.more-suggestions__icon-text {
+  color: var(--gray);
 }
 
 .more-suggestions__icon-image {
@@ -42,4 +47,9 @@
 .more__number > i {
   margin-left: 5px;
   color: #ff7161;
+}
+
+.driver__dot {
+  position: relative;
+  left: 22px;
 }
